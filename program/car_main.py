@@ -14,7 +14,7 @@ from car_data import load_structured_car_data
 from sklearn.metrics import mean_absolute_error
 import resources_rc
 
-ui, _ = loadUiType("clone-dashboard.ui")
+ui, _ = loadUiType("Mr_money.ui")
 
 class FilterComboBox(QComboBox):
     popupAboutToBeShown = Signal()
